@@ -88,8 +88,14 @@ EXTRA_DIST =					\
 	hu-hu-g1_backward.yaml			\
 	hu-hu-g1_harness.yaml			\
 	hu-hu-g1-hyph_harness.yaml		\
+	hu-hu-g1_braille_input_backward.yaml			\
+	hu-hu-g1_braille_input_forward.yaml			\
+	hu-hu-g1-numbers_backward.yaml			\
+	hu-hu-g1-numbers_both.yaml			\
+	hu-hu-g1-numbers_forward.yaml			\
 	hu-hu-g2_harness.yaml			\
 	hu-hu-g2_backward.yaml			\
+	hu-hu-g2_numbers_forward.yaml			\
 	iu-ca-g1_harness.yaml			\
 	ko-2006-g2_harness.yaml			\
 	ko-g2_harness.yaml			\

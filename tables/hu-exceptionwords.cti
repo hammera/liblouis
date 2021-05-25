@@ -128,7 +128,7 @@ partword ifjonc =	For example ifjonccsapat word
 partword párduc =	For example párduccsík word
 partword ribanc =	For example ribanccsizma word
 partword homotópia =	For example homotópiacsoport word
-partword olimpia =	For example olimpiacsapat word
+#partword olimpia =	For example olimpiacsapat word
 always piacsek 1234-24-1-146-15-13
 partword szendvicszab 156-15-1345-145-1236-24-146-126-1-12	For example szendvicszabáló word
 begword hecc =	For example heccsajtójának word
@@ -1477,15 +1477,4 @@ begword vázsno 1236-4-345-1345-135	For example Vázsnok town name
 partword rizszab 1235-24-345-126-1-12	For example rizszabáló word
 partword masszázszuh 134-1-156-156-4-345-126-136-125	For example masszázszuhany, masszázszuhanyokkal words
 
-#After end of number following letters need using different braille markup
-endnum a 6-1
-endnum b 6-12
-endnum c 6-14
-endnum d 6-145
-endnum e 6-15
-endnum f 6-124
-endnum g 6-1245
-endnum h 6-125
-endnum i 6-24
-endnum j 6-245
 

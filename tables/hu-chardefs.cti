@@ -27,6 +27,8 @@
 space \x001b 1b escape character for html back-translation
 space \x00a0 a
 include spaces.uti
+space \e 1b
+space \f 0
 punctuation	\x2007 0	FIGURE SPACE
 punctuation	\x202f 0	NARROW NO-BREAK SPACE
 
@@ -54,11 +56,10 @@ punctuation	>	45	GREATER-THAN SIGN
 punctuation	?	26	QUESTION MARK
 
 punctuation	[	123567	LEFT SQUARE BRACKET
-punctuation	\\	347	REVERSE SOLIDUS
+punctuation	\\	5-16	REVERSE SOLIDUS
 punctuation	]	234567	RIGHT SQUARE BRACKET
 punctuation	~	2346	TILDE
-
-punctuation	^	2346	CIRCUMFLEX ACCENT
+punctuation	^	5-124	CIRCUMFLEX ACCENT
 letter  456
 punctuation _ 6-36
 punctuation          _ 456           #95    _  LOW LINE
@@ -76,15 +77,18 @@ uplow	Űű	23456	LATIN CAPITAL LETTER U WITH DOUBLE ACUTE
 uplow Öö 12345
 uplow Õõ 12456
 lowercase û 23456
+uplow Qq 12346
 uplow Zz 126
 punctuation & 5-12346
 letter q 12346
 punctuation	{	12356	LEFT CURLY BRACKET
-punctuation	|	34	VERTICAL LINE
+punctuation	|	5-1245	VERTICAL LINE
 punctuation	}	23456	RIGHT CURLY BRACKET
 punctuation	"	4	QUOTATION MARK
 include latinLetterDef6Dots.uti
 include digits6DotsPlusDot6.uti
+uplow Qq 12346
+uplow Zz 126
 punctuation	─	2356	BOX DRAWINGS LIGHT HORIZONTAL
 punctuation	━	2356	BOX DRAWINGS HEAVY HORIZONTAL
 punctuation	│	123456	BOX DRAWINGS LIGHT VERTICAL
@@ -205,7 +209,6 @@ punctuation	╴	2356	BOX DRAWINGS LIGHT LEFT
 punctuation	╵	123456	BOX DRAWINGS LIGHT UP
 punctuation	╶	2356	BOX DRAWINGS LIGHT RIGHT
 punctuation	╷	2356	BOX DRAWINGS LIGHT DOWN
-#punctuation	%	2356	BOX DRAWINGS HEAVY LEFT
 punctuation	╹	123456	BOX DRAWINGS HEAVY UP
 punctuation	╺	2356	BOX DRAWINGS HEAVY RIGHT
 punctuation	╻	2356	BOX DRAWINGS HEAVY DOWN
@@ -250,4 +253,4 @@ letter ţ 0
 letter ş 0
 letter ř 1235
 letter à 4
-letter ñ 1345
+lowercase ñ 1345

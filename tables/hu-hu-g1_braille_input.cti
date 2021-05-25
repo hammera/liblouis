@@ -27,9 +27,18 @@
 #Hungarian Braille input related rules
 #Exceptions for two simple equals special letter rules related (for example two literary cscs letter, two literary gygy letter, etc)
 #cscs letter related input rules
+nofor endnum cscs 146-5-146
+noback endnum cscs 146-5-146
+nofor endnum -cscs 36-146-5-146
+noback endnum -cscs 36-146-5-146
+nofor endnum -Cscs 36-46-146-5-146
+noback endnum -Cscs 36-46-146-5-146
 nofor always cscs 146-5-146
 noback always cscs 146-5-146
-noback pass2 @146-5-146 @146-146
+noback pass3 $D@36%notaccentedletters[@14-234-146] @146-5-146
+noback pass3 $D@6%notaccentedletters[@146-14-234] @146-5-146
+noback pass3 $D%accentedletters1-30[@146-14-234] @146-5-146
+noback pass4 @146-5-146 @146-146
 
 #gygy letter related input rules
 nofor always gygy 1456-5-1456
@@ -62,6 +71,7 @@ noback always zszs 345-5-345
 noback pass2 @345-5-345 @345-345
 
 #punctuation related exceptions
+nofor endnum – 5-36
 nofor always – 5-36
 nofor context @8 "\n"
 nofor context @235-8 "!\n"
@@ -69,7 +79,7 @@ nofor context @235-0 "! "
 
 #for plus sign related rule
 nofor context @5-235 "+"
-noback context $a["+"] @5-235
+#noback context $a["+"] @5-235
 noback pass2 @5-235 @235
 
 #for [ and ] character input related old dot combinations related rules, need keeping this rules with compatibility purposes
@@ -80,15 +90,13 @@ nofor always ] 5-23456
 noback always ] 5-23456
 noback pass2 @5-23456 @46-1356
 
-#\ character related rule related exception
-nofor always \\ 5-16
-noback always \\ 5-16
-noback pass2 @5-16 @16
-
 #for ` related exception rules
+#Compatibility purposes handle older braille 5-4 dot combination when the user trying typing the 5-4 dot combination, and not known yet the new changed 5-14 dot combination
 nofor always ` 5-4
 noback always ` 5-4
-noback pass2 @5-4 @4
+noback context $a1-30["`" @5-4
+noback pass2 @5-4 @5-14
+nofor context @5-4 "`"	Handle the backtranslation too
 
 #for { and } related old rules, need keeping this rules with compatibility purposes:
 nofor always { 5-12345
@@ -98,7 +106,14 @@ nofor always } 5-12456
 noback always } 5-12456
 noback pass2 @5-12456 @5-1356
 
-#For | punctuation character related input rule related exception
+#Compatibility purposes handle older braille 5-45 dot combination when the user trying typing this dot combination he's braille display, and not known the new 5-1245 dot combination
 nofor always | 5-45
 noback always | 5-45
-noback pass2 @5-45 @45
+noback pass2 @5-45 @5-1245
+nofor context @5-45 "|"	Handle the back translation too
+
+#Hessmark backtranslation handling related special rule
+nofor context @123456 "#"
+#Now, the dot 5 and dot 6 braille input forward translation rules are commented out
+#nofor pass2 $U2-30[@5]$u2-30 @56
+#nofor pass2 $U2-30[@6]$u @56
