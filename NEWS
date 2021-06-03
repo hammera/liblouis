@@ -9,7 +9,14 @@ issues]].
 
 ** New features
 ** Bug fixes
+- Don't silently ignore the last line of a table when it doesn't end
+  with a new line character. Thanks to Bert Frees.
+
 ** Braille table improvements
+- New contracted braille table for the isiXhosa and isiZulu languages
+  created by Christo de Klerk and Laurent Cadet de Fontenay at the
+  request and under the auspices of the South African Braille
+  Authority.
 - Fix a problem with ']' in Finnish 8 dot braille thanks to Christian
   Egli. The real problem was an unintended continuation line.
 - Major update to the grade 2 Afrikaans table. It now implements the
@@ -18,6 +25,18 @@ issues]].
   the rules, especially those based on pronunciation. 571 of the list
   of 25912 test words were impacted by the changes and all have been
   corrected.
+- Improvements to the Russian literary braille tables thanks to Andrey
+  Yakuboy and Bert Frees:
+  - Fixed a bug in ru-litbrl-detailed.utb that was causing a capital
+    sign to be missing for Cyrillic uppercase letters after Latin
+    letters.
+  - Fixed a bug in ru-litbrl-detailed.utb that was causing a number
+    sign to be missing in some cases.
+  - Added more accented letters.
+- New tables for Kazakh uncontracted, Tatar uncontracted and Yakut uncontracted braille thanks to
+  Andrey Yakuboy.
+- Added more apostrophe symbols to English Computer Braille Code table
+  thanks to BAUM Engineering.
 ** Other changes
 ** Deprecation notice
 - None
@@ -25,7 +44,13 @@ issues]].
 ** Invisible changes
 ** New, renamed or removed tables
 *** New
-None
+- kk.utb
+- sah.utb
+- tt.utb
+- xh-g1.utb
+- xh-g2.ctb
+- zu-g1.utb
+- zu-g2.ctb
 
 *** Renamed
 None

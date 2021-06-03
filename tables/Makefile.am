@@ -213,6 +213,7 @@ table_files = \
 	kannada.cti \
 	kha.tbl \
 	kh-in-g1.utb \
+	kk.utb \
 	kn.tbl \
 	ko-2006.cti \
 	ko-2006-g1.ctb \
@@ -313,6 +314,7 @@ table_files = \
 	ru-unicode.dis \
 	sa-in-g1.utb \
 	sa.tbl \
+	sah.utb \
 	sd.tbl \
 	se-se.ctb \
 	se-se.dis \
@@ -351,6 +353,7 @@ table_files = \
 	tr-g2.tbl \
 	tr.tbl \
 	tsn-za-g1.ctb \
+	tt.utb \
 	ukchardefs.cti \
 	ukmaths_single_cell_defs.cti \
 	ukmaths_unicode_defs.cti \
@@ -369,6 +372,8 @@ table_files = \
 	vi.tbl \
 	wiskunde-chardefs.cti \
 	wordcx.dis \
+	xh-g1.utb \
+	xh-g2.ctb \
 	zh-chn.ctb \
 	zh_CHN.tbl \
 	zhcn-g1.ctb \
@@ -376,7 +381,9 @@ table_files = \
 	zh-hk.ctb \
 	zh_HK.tbl \
 	zh-tw.ctb \
-	zh_TW.tbl 
+	zh_TW.tbl \
+	zu-g1.utb \
+	zu-g2.ctb
 
 tablesdir = $(datadir)/liblouis/tables
 tables_DATA = $(table_files)
