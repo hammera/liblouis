@@ -1,0 +1,57 @@
+# liblouis: Hungarian Grade 1 table
+#
+#  Copyright (C) 2011-2021 Attila Hammer from IT Foundation for the Visually Impaired - Hungary. www.infoalap.hu
+#
+#  This file is part of liblouis.
+#
+#  liblouis is free software: you can redistribute it and/or modify it
+#  under the terms of the GNU Lesser General Public License as
+#  published by the Free Software Foundation, either version 2.1 of the
+#  License, or (at your option) any later version.
+#
+#  liblouis is distributed in the hope that it will be useful, but
+#  WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+#  Lesser General Public License for more details.
+#
+#  You should have received a copy of the GNU Lesser General Public
+#  License along with liblouis. If not, see
+#  <http://www.gnu.org/licenses/>.
+#
+#  Maintained by Attila Hammer  hammer.attila@infoalap.hu
+#
+# If you found bugs with hungarian grade1 table, report it with following address:
+# Attila Hammer <hammer.attila@infoalap.hu
+#If you have a Launchpad account, report table related requests with following bug tracker address: https://bugs.launchpad.net/belin
+
+#This file containing only backtranslation correction related rules, for example inside a word have cscs letters, szsz letters, etc.
+#Because in hungarian Braille the dot combinations equals with single letters and double letters (for example 146 with cs, 146-146 with ccs and cscs), need doing last correction when happening a back translation
+#cscs word part related backtranslate corrections
+nofor correct "aganccsap" "agancscsap"	For example agancscsapról word
+nofor correct "apoccsont" "apocscsont"	For example álkapocscsont, szárkapocscsont, szárkapocscsonttal word part corrections
+nofor correct "csúccsap" "csúcscsap"	For example csúcscsapat word
+nofor correct "erkölccső" "erkölcscső"	For example erkölcscsősz, erkölcscsősszel words backtranslation correction
+nofor correct "furdanccsi" "furdancscsi"	With furdancscsiga backtranslation correction
+nofor correct "habarccsö" "habarcscsö"	For example habarcscsövekkel, habarcscsövet words backtranslation word correction
+nofor correct "habarccső" "habarcscső"	Similar correction, for example habarcscsővel, habarcscső word
+nofor correct "orbáccsap" "orbácscsap"	For example korbácscsapás word backtranslation correction
+nofor correct "ulccse" "ulcscse"	With kulcscsere word part backtranslation correction
+nofor correct "ulccso" "ulcscso"	For example kulcscsomó, kulcscsomag, kulcscsont backtranslation words corrections
+nofor correct "ulccsö" "ulcscsö"	For example áfakulcscsökkentés, kulcscsörgés words backtranslation correction
+nofor correct "ullanccsi" "ullancscsi"	With kullancscsipesz word part correction
+nofor correct "ullanccsí" "ullancscsí"	With kullancscsípés word correction
+nofor correct "anccsap" "ancscsap"	For example mancsapással word backtranslation
+nofor correct "kinccsemp" "incscsemp"	With műkincscsempész word part backtranslation
+nofor correct "felejccsok" "felejcscsok"	For example nefelejcscsokorral word part
+nofor correct "akáccsapat" "akácscsapat"	For example szakácscsapat word
+nofor correct "endviccsi" "endviccscsi"	For example szendvicscsinálás word
+nofor correct "anáccsap" "anácscsap"
+
+
+#szsz backranstrated words related exceptions
+nofor correct "bortusszab" "bortuszszab"	For example abortuszszabadság, abortuszszabály words backtranslation
+nofor correct "bortusszabadsággal" "bortuszszabadsággal"
+nofor correct "bortusszá" "bortuszszá"
+nofor correct "bortusszi" "bortuszszi"
+
+nofor correct $D.["—"]$l. "--"
