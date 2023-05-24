@@ -30,3 +30,11 @@ tests:
   - - '\x0095 \x2022 \x25cb \x25d8 \x25d9'
     - '⠸⠲ ⠸⠲ ⠸⠲ ⠸⠲ ⠸⠲'
     
+# Some previous missing accented characters forward direction tests,
+# based with tables/en-chardefs.cti file
+flags: {testmode: forward}
+tests:
+  - ["ő", ⠰⠈⠕]
+  - ["ű", ⠰⠈⠥]
+  - ["Ő", ⠰⠠⠈⠕]
+  - ["Ű", ⠰⠠⠈⠥]
