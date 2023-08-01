@@ -178,3 +178,21 @@ tests:
   - ["1zzs", ⠼⠁⠜⠜]
   - ["1zzs1", ⠼⠁⠜⠜⠼⠁]
   - ["1azzs", ⠼⠁⠠⠁⠜⠜]
+#Following testcases testing redesigned old compatibility purpose translation rules,
+#with affects only back-translation
+#Following testcases shows the right forward translation when the unicode simbols presents
+#with Braille-displays
+  - [⠐⠷, ⠐⠷]
+  - [⠐⠾, ⠐⠾]
+  - [⠐⠟, ⠐⠟]
+  - [⠐⠻, ⠐⠻]
+  - ["[", ⠨⠮]
+  - ["]", ⠨⠵]
+  - ["{", ⠐⠮]
+  - ["}", ⠐⠵]
+  - ["|", ⠐⠛]
+  - [⠐⠘, ⠐⠘]
+  - ["`", ⠐⠉]
+  - [⠐⠈, ⠐⠈]
+  - [⠼⠴, ⠼⠴]
+  - [⠴⠼, ⠴⠼]
