@@ -72,6 +72,7 @@ dist_braille_specs_TESTS =				  \
 	braille-specs/ar-ar-g1_harness.yaml		  \
 	braille-specs/ar-ar-g2.yaml			  \
 	braille-specs/ba.yaml				  \
+	braille-specs/be-in-g1_dictionary_harness.yaml				  \
 	braille-specs/bel.yaml				  \
 	braille-specs/bg.yaml				  \
 	braille-specs/chr-us-g1_harness.yaml		  \

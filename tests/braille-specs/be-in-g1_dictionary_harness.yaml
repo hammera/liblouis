@@ -1,0 +1,114 @@
+# This testcase file is contains only basic bengali language characters with issue #933
+# related, link is following:
+# https://github.com/liblouis/liblouis/issues/933
+# This test case file not checked a bengali language Braille know maintainer, because now not
+# have national language maintainer the bn-in-g1.utb table
+# This testcase file always auto generated from a word dictionary
+# file if happening test case file extending after a translation
+# table update.
+#
+# Copyright (C) 2023 Attila Hammer from IT Foundation for the Visually Impaired - Hungary. www.infoalap.hu
+#
+# Copying and distribution of this file, with or without modification,
+# are permitted in any medium without royalty provided the copyright
+# notice and this notice are preserved. This file is offered as-is,
+# without any warranty.
+#
+
+display: |
+  include unicode-without-blank.dis
+  display 9 9
+  display a a
+table:
+  language: bn
+  grade: 1
+  __assert-match: bn.tbl
+flags: {testmode: forward}
+tests:
+  - ["ঁ", ⠄]
+  - ["ং", ⠰]
+  - ["ঃ", ⠠]
+  - ["অ", ⠁]
+  - ["আ", ⠜]
+  - ["ই", ⠊]
+  - ["ঈ", ⠔]
+  - ["উ", ⠥]
+  - ["ঊ", ⠳]
+  - ["ঋ", ⠐⠗]
+  - ["ঌ", ⠐⠇]
+  - ["এ", ⠑]
+  - ["ঐ", ⠌]
+  - ["ও", ⠕]
+  - ["ঔ", ⠪]
+  - ["ক", ⠅]
+  - ["খ", ⠨]
+  - ["গ", ⠛]
+  - ["ঘ", ⠣]
+  - ["ঙ", ⠬]
+  - ["চ", ⠉]
+  - ["ছ", ⠡]
+  - ["জ", ⠚]
+  - ["ঝ", ⠴]
+  - ["ঞ", ⠒]
+  - ["ট", ⠾]
+  - ["ঠ", ⠺]
+  - ["ড", ⠫]
+  - ["ঢ", ⠿]
+  - ["ণ", ⠼]
+  - ["ত", ⠞]
+  - ["থ", ⠹]
+  - ["দ", ⠙]
+  - ["ধ", ⠮]
+  - ["ন", ⠝]
+  - ["প", ⠏]
+  - ["ফ", ⠖]
+  - ["ব", ⠃]
+  - ["ভ", ⠘]
+  - ["ম", ⠍]
+  - ["য", ⠽]
+  - ["র", ⠗]
+  - ["ল", ⠇]
+  - ["শ", ⠩]
+  - ["ষ", ⠯]
+  - ["স", ⠎]
+  - ["হ", ⠓]
+  - ["ঽ", ⠂]
+  - ["া", ⠜]
+  - ["ি", ⠊]
+  - ["ী", ⠔]
+  - ["ু", ⠥]
+  - ["ূ", ⠳]
+  - ["ৃ", ⠐⠗]
+  - ["ৄ", ⠠⠗]
+  - ["ে", ⠑]
+  - ["ৈ", ⠌]
+  - ["ো", ⠕]
+  - ["ৌ", ⠪]
+  - ["্", ⠈]
+  - ["ৎ", ⠈⠞]
+  - ["ড়", ⠻]
+  - ["ঢ়", ⠐⠻]
+  - ["য়", ⠢]
+  - ["ৠ", ⠠⠗]
+  - ["ৡ", ⠠⠇]
+  - ["ৢ", ⠐⠇]
+  - ["ৣ", ⠠⠇]
+  - ["০", ⠚]
+  - ["১", ⠁]
+  - ["২", ⠃]
+  - ["৩", ⠉]
+  - ["৪", ⠙]
+  - ["৫", ⠑]
+  - ["৬", ⠋]
+  - ["৭", ⠛]
+  - ["৮", ⠓]
+  - ["৯", ⠊]
+  - ["ৰ", ⠗]
+  - ["ৱ", ⠧]
+  - ["ক", ⠅]
+  - ["খ", ⠨]
+  - ["গ", ⠛]
+  - ["ঘ", ⠣]
+  - ["চ", ⠉]
+  - ["ছ", ⠡]
+  - ["।", ⠲]

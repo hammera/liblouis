@@ -5,6 +5,7 @@ EXTRA_DIST =					\
 	ar-ar-g1_harness.yaml			\
 	ar-ar-g2.yaml				\
 	ba.yaml					\
+	be-in-g1_dictionary_harness.yaml				\
 	bel.yaml				\
 	bg.yaml					\
 	chr-us-g1_harness.yaml			\
