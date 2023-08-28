@@ -178,8 +178,6 @@ tests:
   - ["1zzs", ⠼⠁⠜⠜]
   - ["1zzs1", ⠼⠁⠜⠜⠼⠁]
   - ["1azzs", ⠼⠁⠠⠁⠜⠜]
-#Following testcases shows the right forward translation when the unicode simbols presents
-#with Braille-displays
   - [⠐⠷, ⠐⠷]
   - [⠐⠾, ⠐⠾]
   - [⠐⠟, ⠐⠟]
