@@ -748,6 +748,8 @@ nofor correct "redménnyil" "redménynyil"    For example eredménynyilvánítá
 nofor correct "REDMÉNNYIL" "REDMÉNYNYIL"    For example EREDMÉNYNYILVÁNÍTÁS word
 nofor correct "rannyél" "ranynyél" *	For example aranynyél word
 nofor correct "RANNYÉL" "RANYNYÉL"	For example ARANYNYÉL word
+nofor correct "agánnyár" "agánynyár"	For example magánynyár word
+nofor correct "AGÁNNYÁR" "AGÁNYNYÁR"	For example MAGÁNYNYÁR word
 
 #lyly letters related backtranslate corrections
 nofor correct "amelylyel" *
@@ -2803,6 +2805,8 @@ nofor correct "Plusszám" "Pluszszám"	For example Pluszszám word
 nofor correct "PLUSSZÁM" "PLUSZSZÁM"	For example PLUSZSZÁM word
 nofor correct "ivaccső" "ivacscső"	For example szivacscső word
 nofor correct "IVACCSŐ" "IVACSCSŐ"	For example SZIVACSCSŐ word
+nofor correct "álasszó" "álaszszó"	For example válaszszóval word
+nofor correct "ÁLASSZÓ" "ÁLASZSZÓ"	For example VÁLASZSZÓVAL word
 
 #zszs backtranslated word corrections
 nofor correct "törzszsel" "törzzsel"

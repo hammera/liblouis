@@ -2504,6 +2504,8 @@ always híressz 125-34-1235-15-234-156	For example híresszínész word
 always oldalassz 135-123-145-1-123-1-234-156	For example oldalasszél word
 always késszet 13-16-234-156-15-2345	For example késszett word
 always fegyveressz 124-15-1456-1236-15-1235-15-234-156	For example fegyveresszállítás, fegyveresszolgálat word
+always mészárosz 134-16-156-4-1235-135-234-126	For example mészároszebra word
+always káromkodássz 13-4-1235-135-134-13-135-145-4-234-156	For example káromkodásszabály word
 
 #ty, tty related exceptions
 #This exception part containing english words with need presenting original english braille rules
