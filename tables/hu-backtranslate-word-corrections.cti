@@ -3694,6 +3694,8 @@ nofor correct "Szösszi" "Szöszszi"	For example Szöszszippantó word
 nofor correct "SZÖSSZI" "SZÖSZSZI"	For example SZÖSZSZIPPANTÓ word
 nofor correct "erasszen" "eraszszen"	For example teraszszent word
 nofor correct "ERASSZEN" "ERASZSZEN"	For example TERASZSZENT word
+nofor correct "ányásszanat" "ányászszanat"	For example bányászszanatórium word
+nofor correct "ÁNYÁSSZANAT" "ÁNYÁSZSZANAT"	For example BÁNYÁSZSZANATÓRIUM word
 
 #zszs backtranslated word corrections
 nofor correct "törzszsel" "törzzsel"
