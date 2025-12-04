@@ -242,6 +242,7 @@ always nyápics 1246-4-1234-24-14-234	For example nyápicság word
 always gombóccs 1245-135-134-12-246-14-146	For example gombóccsata word
 always bohócs 12-135-125-246-14-234	For example bohócság word
 always bohócsz 12-135-125-246-14-156	For example bohócszabadság, bohócszerű words
+always magonccs 134-1-1245-135-1345-14-146	For example magonccsemete word
 
 #gy, ggy related exceptions
 #This exception section containing word parts and full words with need marking ggy letter pairs with single g and gy braille dot combination
@@ -610,6 +611,7 @@ always hanggy 125-1-1345-1245-1456	For example hanggyűlölet word
 always meggyapó 134-15-1456-1456-1-1234-246
 always loggyű 123-135-1245-1456-23456	For example loggyűjtemény, loggyűrű word
 always meggyele 134-15-1456-1456-15-123-15	For example meggyelemzés word
+always költséggy 13-12345-123-2345-234-16-1245-1456	For example költséggyűjtés word
 
 #ny, nny related exceptions
 #Following exception parts need marking nny letter pairs with single n and nny braille dot combinations
@@ -794,6 +796,7 @@ always mikrony 134-24-13-1235-135-1246	For example mikronyelv word
 always mindennyel 134-24-1345-145-15-1345-1246-15-123	For example mindennyelő word
 always nitrogénny 1345-24-2345-1235-135-1245-16-1345-1246	For example nitrogénnyaláb word
 always kormoránny 13-135-1235-134-135-1235-4-1345-1246	For example kormoránnyitja word
+always önnyír 12345-1345-1246-34-1235	For example önnyírás, önnyíró word
 
 #ly related exceptions
 #This exception parts need marking ly letters with two single l and y letter combination
@@ -1041,6 +1044,7 @@ always szülészár 156-12356-123-16-234-126-4-1235	For example szülészáró w
 always töréssz 2345-12345-1235-16-234-156	For example törésszéles word
 always nyomász 1246-135-134-4-234-126	For example nyomászáró word
 always lángosza 123-4-1345-1245-135-234-126-1	For example lángoszabáló word
+always citrusz 14-24-2345-1235-136-234-126	For example citruszóna word
 
 #ssz related exceptions
 #Following exception words and word parts need writing one s and one sz braille letter
@@ -2715,6 +2719,13 @@ always izzadássz 24-126-126-1-145-4-234-156	For example izzadásszag word
 always tiltássz 2345-24-123-2345-4-234-156	For example tiltásszimuláció word
 always urológussz 136-1235-135-123-246-1245-136-234-156	For example urológusszakma word
 always gyorsítássz 1456-135-1235-234-34-2345-4-234-156	For example gyorsításszabályozás word
+always virágzássz 1236-24-1235-4-1245-126-4-234-156	For example világzásszinkronizálás word
+always csorgássz 146-135-1235-1245-4-234-156	For example lecsorgásszisztéma word
+always nevetéssz 1345-15-1236-15-2345-16-234-156	For example nevetésszekvencia word
+always hússzend 125-346-234-156-15-1345-145	For example hússzendvics word
+always programozássz 1234-1235-135-1245-1235-1-134-135-126-4-234-156	For example programozásszakkör word
+always evésszak 15-1236-16-234-156-1-13	For example evésszakértő word
+always fűzsák 124-23456-345-4-13	For example fűzsák word
 
 #ty, tty related exceptions
 #This exception part containing english words with need presenting original english braille rules
@@ -2944,6 +2955,9 @@ always meccszs 134-15-146-146-345	For example meccszsákolás word
 always rézsü 1235-16-345-12356	For example rézsüvonal, rézsüz words
 always kabarézs 13-1-12-1-1235-16-345	For example kabarézseni word
 always szárazsú 156-4-1235-1-126-234-346	For example szárazsúly word
+always szervizsp 156-15-1235-1236-24-126-234-1234	For example szervizspecialista, szervizspray word
+always szervizse 156-15-1235-1236-24-126-234-15	For example szervizsegítség word
+always szervizst 156-15-1235-1236-24-126-234-2345	For example szervizstop word
 
 #Historical person names related exceptions
 always táncsics 2345-4-1345-146-24-146	Táncsics Mihály is a historical person for 1848. march 15 hungarian revolution

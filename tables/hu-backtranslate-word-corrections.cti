@@ -3694,6 +3694,24 @@ nofor correct "Szösszi" "Szöszszi"	For example Szöszszippantó word
 nofor correct "SZÖSSZI" "SZÖSZSZI"	For example SZÖSZSZIPPANTÓ word
 nofor correct "erasszen" "eraszszen"	For example teraszszent word
 nofor correct "ERASSZEN" "ERASZSZEN"	For example TERASZSZENT word
+nofor correct "ányásszanat" "ányászszanat"	For example bányászszanatórium word
+nofor correct "ÁNYÁSSZANAT" "ÁNYÁSZSZANAT"	For example BÁNYÁSZSZANATÓRIUM word
+nofor correct "ísszing" "íszszing"	For example díszszingli word
+nofor correct "ÍSSZING" "ÍSZSZING"	For example DÍSZSZINGLI word
+nofor correct "oksszerk" "okszszerk"	For example bokszszerkóban word
+nofor correct "OKSSZERK" "OKSZSZERK"	For example BOKSZSZERKÓBAN word
+nofor correct "irkusszolg" "irkuszszolg"	For example cirkuszszolgák word
+nofor correct "IRKUSSZOLG" "IRKUSZSZOLG"	For example CIRKUSZSZOLGÁK word
+nofor correct "inoszaurusszar" "inoszauruszszar"
+nofor correct "INOSZAURUSSZAR" "INOSZAURUSZSZAR"
+nofor correct "ekssza" "ekszsza"	For example kekszszaggató word
+nofor correct "EKSSZA" "EKSZSZA"	For example KEKSZSZAGGATÓ word
+nofor correct "osztesszo" "oszteszszo"	For example hoszteszszolgáltatás word
+nofor correct "OSZTESSZO" "OSZTESZSZO"	For example HOSZTESZSZOLGÁLTATÁS word
+nofor correct "esztiválassz" *	For example fesztiválasszisztens word
+nofor correct "ESZTIVÁLASSZ" *	For example FESZTIVÁLASSZISZTENS word
+nofor correct "uhásszo" "uhászszo"	For example juhászszobor word
+nofor correct "UHÁSSZO" "UHÁSZSZO"	For example JUHÁSZSZOBOR word
 
 #zszs backtranslated word corrections
 nofor correct "törzszsel" "törzzsel"
