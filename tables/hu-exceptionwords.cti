@@ -1076,6 +1076,7 @@ always ízlészs 34-126-123-16-234-345	For example ízlészsandár word
 always ízlész 34-126-123-16-234-126	For example ízlészene word
 always tartász 2345-1-1235-2345-4-234-126	For example tartászóna, szertartászene word
 always játszász 245-4-2345-156-4-234-126	For example játszászene word
+always társulász 2345-4-1235-234-136-123-4-234-126	For example társulászarándoklat word
 
 #ssz related exceptions
 #Following exception words and word parts need writing one s and one sz braille letter
@@ -2813,6 +2814,11 @@ always szakaszug 156-1-13-1-156-136-1245	For example szakaszugrató word
 always hússzt 125-346-234-156-2345	For example hússzték word
 always hasszöv 125-1-234-156-12345-1236	For example hasszövet word
 always gyűrődéssz 1456-23456-1235-12456-145-16-234-156	For example gyűrődésszerű, gyűrődésszint words
+always szülésszer 156-12356-123-16-234-156-15-1235	For example szülésszervezési word
+always préseléssz 1234-1235-16-234-15-123-16-234-156	For example préselésszezon word
+always költségvetéssz 13-12345-123-2345-234-16-1245-1236-15-2345-16-234-156	For example költségvetésszerű word
+always késszerz 13-16-234-156-15-1235-126	For example késszerzés word
+always diagnózissz 145-24-1-1245-1345-246-126-24-234-156	For example diagnózissztereotípia word
 
 #ty, tty related exceptions
 #This exception part containing english words with need presenting original english braille rules
