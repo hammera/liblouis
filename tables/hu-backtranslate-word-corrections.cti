@@ -4223,6 +4223,12 @@ nofor correct "imnusszó" "imnuszszó"	For example himnuszszólama word
 nofor correct "IMNUSSZÓ" "IMNUSZSZÓ"	For example HIMNUSZSZÓZATA word
 nofor correct "ilinccsa" "ilincscsa"	For example bilincscsattogás word
 nofor correct "ILINCCSA" "ILINCSCSA"	For example BILINCSCSATTOGÁS word
+nofor correct "plusszó" "pluszszó"	For example pluszszóval word
+nofor correct "Plusszó" "Pluszszó"	For example Pluszszóval word
+nofor correct "PLUSSZÓ" "PLUSZSZÓ"	For example PLUSZSZÓVAL word
+nofor correct "gonossze" "gonoszsze"	For example gonoszszem word
+nofor correct "Gonossze" "Gonoszsze"	For example Gonoszszem word
+nofor correct "GONOSSZE" "GONOSZSZE"	For example GONOSZSZEM word
 
 #zszs backtranslated word corrections
 nofor correct "törzszsel" "törzzsel"

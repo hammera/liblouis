@@ -2912,6 +2912,7 @@ always pajtássz 1234-1-245-2345-4-234-156   For example pajtásszivattyú word
 
 always adjuvánssz 1-145-245-136-1236-4-1345-234-156 For example adjuvánsszerű word
 always kenézsé 13-15-1345-16-126-234-16	For example kenézség word
+always üzemeltetéssz 12356-126-15-134-15-123-2345-15-2345-16-234-156	For example üzemeltetésszakma word
 
 #ty, tty related exceptions
 #This exception part containing english words with need presenting original english braille rules
@@ -2960,6 +2961,7 @@ endnum -city =
 always sztevanovity 156-2345-15-1236-1-1345-135-1236-24-2345-13456	For example Sztevanovity name related exception
 always kéthly 13-16-2345-125-123-13456	For example Kéthly Anna name
 always assembly 1-234-234-15-134-12-123-13456
+always hússzalon 125-346-234-156-1-123-135-1345	For example hússzalon word
 
 #zs, zzs related exceptions
 partword ínházsi 34-1345-125-4-345-24
