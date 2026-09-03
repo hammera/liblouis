@@ -268,6 +268,7 @@ always gombócsz 1245-135-134-12-246-14-156	For example gombócszerű word
 always porcsor 1234-135-1235-14-234-135-1235	For example porcsorvadás word
 always láncstar 123-4-1345-14-234-2345-1-1235	For example blokkláncstartup word
 always lánccsa 123-4-1345-14-146-1	For example lánccsalád word
+always falécso 124-1-123-16-14-234-135	For example falécsor word
 
 #gy, ggy related exceptions
 #This exception section containing word parts and full words with need marking ggy letter pairs with single g and gy braille dot combination
@@ -661,6 +662,7 @@ always méltósággy 134-16-123-2345-246-234-4-1245-1456	For example méltóság
 always tanulsággy 2345-1-1345-136-123-234-4-1245-1456	For example tanulsággyűjtemény word
 always meggygoly 134-15-1456-1456-1245-135-456	For example meggygolyó word
 nofor begword agygyorsít 1-1456-1456-135-1235-234-34-2345	For example agygyorsító word
+always sávszélességgy 234-4-1236-156-16-123-15-234-234-16-1245-1456	For example sávszélességgyúró word
 
 #ny, nny related exceptions
 #Following exception parts need marking nny letter pairs with single n and nny braille dot combinations
@@ -852,6 +854,7 @@ always zsetonny 345-15-2345-135-1345-1246	For example zsetonnyeremény word
 always neonnyí 1345-15-135-1345-1246-34	For example neonnyíl word
 always kénnyom 13-16-1345-1246-135-134	For example kénnyom word
 always tokennyi 2345-135-13-15-1345-1246-24 For example tokennyi, tokennyilvántartás word
+always szerecsennya 156-15-1235-15-146-15-1345-1246-1	For example szerecsennyaldosás word
 
 #ly related exceptions
 #This exception parts need marking ly letters with two single l and y letter combination
@@ -1106,6 +1109,9 @@ always tartász 2345-1-1235-2345-4-234-126	For example tartászóna, szertartás
 always játszász 245-4-2345-156-4-234-126	For example játszászene word
 always társulász 2345-4-1235-234-136-123-4-234-126	For example társulászarándoklat word
 always büntetész 12-12356-1345-2345-15-2345-16-234-126  For example büntetészuhatag word
+always kritikusza 13-1235-24-2345-24-13-136-234-126-1	For example kritikuszab word
+always motorosze 134-135-2345-135-1235-135-234-126-15	For example motoroszenekar word
+always motoroszú 134-135-2345-135-1235-135-234-126-346	For example motoroszúgással word
 
 #ssz related exceptions
 #Following exception words and word parts need writing one s and one sz braille letter
@@ -2912,6 +2918,16 @@ always pajtássz 1234-1-245-2345-4-234-156   For example pajtásszivattyú word
 
 always adjuvánssz 1-145-245-136-1236-4-1345-234-156 For example adjuvánsszerű word
 always kenézsé 13-15-1345-16-126-234-16	For example kenézség word
+always üzemeltetéssz 12356-126-15-134-15-123-2345-15-2345-16-234-156	For example üzemeltetésszakma word
+always iskolássz 24-234-13-135-123-4-234-156	For example iskolássztrájk word
+always sasszaké 234-1-234-156-1-13-16	For example sasszakértő word
+always aratássz 1-1235-1-2345-4-234-156	For example aratásszag word
+always marhahússz 134-1-1235-125-1-125-346-234-156	For example marhahússzett word
+always sértéssz 234-16-1235-2345-16-234-156	For example sértésszótár word
+always fosszuka 124-135-234-156-136-13-1
+always mentéssz 134-15-1345-2345-16-234-156	For example mentésszakma word
+always szuperhősszobo 156-136-1234-15-1235-125-12456-234-156-135-12-135	for example szuperhősszobor word
+always ültetéssz 12356-123-2345-15-2345-16-234-156	For example ültetésszemlélet word
 
 #ty, tty related exceptions
 #This exception part containing english words with need presenting original english braille rules
@@ -2960,6 +2976,7 @@ endnum -city =
 always sztevanovity 156-2345-15-1236-1-1345-135-1236-24-2345-13456	For example Sztevanovity name related exception
 always kéthly 13-16-2345-125-123-13456	For example Kéthly Anna name
 always assembly 1-234-234-15-134-12-123-13456
+always hússzalon 125-346-234-156-1-123-135-1345	For example hússzalon word
 
 #zs, zzs related exceptions
 partword ínházsi 34-1345-125-4-345-24
